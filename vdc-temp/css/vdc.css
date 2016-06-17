@@ -1,0 +1,227 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+body{
+	color:#1e1e1e;
+	background-color: #d9d9d9;
+	line-height: 26px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	margin-top:0;
+}
+.img-responsive{
+	width: 100%;
+}
+.btn-primary{
+	float: right;
+	background-color: #bd0912;
+	border: 0;
+	border-radius: 0
+}
+/*header*/
+.navbar-default{
+	margin:0;
+}
+.navbar-default .navbar-header{
+	margin: 10px;
+	position: relative;	
+}
+.navbar-default .navbar-header .navbar-brand{
+	height: auto;
+	padding: 0
+}
+.navbar-default .navbar-nav{
+	float: none;
+	clear: both;
+}
+.navbar-default .menu-wrap{
+	background-color: #2b631c
+}
+.navbar-default .menu-wrap .navbar-nav>li{
+	margin-right: 35px;
+}
+.navbar-default .menu-wrap .navbar-nav>li>a{
+	color: #fefefe;
+}
+.navbar-default .menu-wrap .navbar-nav>li>a:focus{
+	outline: none
+}
+.navbar-default .menu-wrap .navbar-nav>li>a:hover,
+.footer-wrap .copyright a:hover,
+.main h4 span a:hover,
+.contact .form-group .btn-primary:hover,
+.btn-primary:hover,
+.main .testimo-wrap .testimo h5 a:hover,
+.main .content-list .testimo a:hover,
+.footer-wrap .foot-col ul li a:hover,
+.footer-wrap .copyright a:hover{
+	transition:all linear 0.6s;
+	text-decoration: none;
+	opacity: .86
+}
+.btn-primary:hover{
+	background-color: #2b631c;
+	color:#fefefe;
+}
+/*slider section*/
+.main{
+	background-color: #fefefe;
+	padding:40px 15px;
+}
+.main h4{
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    position: relative;
+    font-weight: 600;
+    background-color: #245fb9;
+    color:#fefefe;
+}
+.main h4 .glyphicon,
+.footer-wrap .foot-col h4 .glyphicon{
+	margin-right: 10px
+}
+.main h4 span{
+	position: absolute;
+	right:0;
+	line-height: 20px;
+	font-size: 13px;
+}
+.main h4 span a{
+	color:#fefefe;
+	padding:12px 15px
+}
+
+.main #slider{
+	margin:0 0 40px
+}
+.modal .modal-content{
+	border-radius: 0
+}
+.modal .carousel-control{
+	width: auto;
+	top:50%;
+	bottom: auto;
+	margin-top:-10px;
+}
+.main .content1{
+	margin-bottom: 40px;
+}
+.main .content1 .president img{
+	width: 100px;
+	float:left;
+	margin:0 5px 5px 0;
+}
+.main .content1 .president figcaption{
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600
+}
+.main .testimo-wrap .testimo{
+	margin:20px 0 0;
+	box-shadow: -1px 1px 1px 3px #ccc;
+    padding: 10px 15px;
+}
+.main .testimo-wrap .testimo h5{
+	font-size: 16px;
+	border-bottom: 1px solid #bd0912;
+	padding: 0 0 10px;
+}
+.main .testimo-wrap .testimo h5 a,
+.main .content-list .testimo a,
+.main .content-detail .testimo h5{
+	color:#1e1e1e;
+	font-size: 18px
+}
+.main .testimo-wrap .testimo img,
+.main .content-list .testimo img{
+	float:left;
+	width:85px;
+	margin:7px 5px 0 0;
+}
+/*listing page*/
+.main .content-list .testimo{
+	overflow: hidden;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #bd0912;
+}
+.main .content-list .testimo:last-child{
+	border-bottom: 0
+}
+.main .content-list .testimo img{
+	width: 120px
+}
+/*detail page*/
+.main .content-detail .testimo ul{
+	overflow: hidden;
+	padding-left:10px;
+}
+.main .content-detail .testimo ul li{
+	list-style-position: inside;
+}
+.main .content-detail .testimo img{
+	margin:7px 10px 0 0;
+	float: left;
+}
+.main .content-detail .testimo h5{
+	border-bottom: 1px solid #bd0912;
+	padding-bottom: 10px
+}
+.main .content-list .testimo:last-child{
+	margin-bottom: 0
+}
+.main .gallery .image-wrap{
+	float: left;
+	width: 49%;
+	margin:0 2% 2% 0;
+}
+.main .gallery .image-wrap:nth-child(odd){
+	margin:0 0 2% 0;
+}
+/*Contact page*/
+.contact .form-group input,
+.contact .form-group textarea{
+	width: 100%;
+}
+.contact .form-group textarea{
+	resize:none;
+}
+.contact .con-col .map{
+	height: 290px;
+	background-color: gray;
+	padding:15px;
+}
+/*gallery page*/
+.gallery .img-gal{
+	margin: 20px 0 10px 
+}
+
+/*footer*/
+.footer-wrap{
+	background-color: #2b631c;
+	padding:20px 15px;
+	color:#fefefe;
+	text-align: center;
+	line-height: 23px;
+	font-size: 13px;
+}
+.footer-wrap p{
+	margin:0;
+}
+.footer-wrap .foot-col h4{
+	border-bottom: 1px solid #fefefe;
+	padding:0 0 15px;
+	margin:0 0 20px;
+}
+.footer-wrap .foot-col ul li{
+	list-style-type: none
+}
+.footer-wrap .foot-col ul li a,
+.footer-wrap .copyright a{
+	color:#fefefe;
+}
+.footer-wrap .copyright{
+	padding:20px 15px 0;
+	border-top:1px solid #fefefe;
+	margin-top:30px;
+}
+

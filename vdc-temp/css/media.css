@@ -1,0 +1,63 @@
+@media (max-width: 767px){
+	.navbar-default .navbar-header{
+		margin:0;
+	}
+	.navbar-default .navbar-header .navbar-brand{
+		margin:10px 0;
+	}
+	.navbar-default .navbar-header .navbar-brand img{
+		width:270px;
+	}
+	.navbar-default .navbar-toggle,
+	.navbar-default .navbar-toggle:focus,
+	.navbar-default .navbar-toggle:hover{
+		border:none;
+		padding:0;
+		background-color: transparent;
+		position: absolute;
+		top:50%;
+		right: 0;
+    	margin: -11px 0 0 0;
+	}
+	.navbar-default .navbar-toggle .icon-bar,
+	.navbar-default .navbar-toggle .icon-bar:hover{
+		background-color: #a90e16;
+		width: 25px;
+		height: 3px;
+	}
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form{
+		text-align: center;
+	}
+	.navbar-default .navbar-nav{
+		margin:0;
+	}
+	.navbar-default .menu-wrap .navbar-nav>li{
+		margin:0;
+		border-bottom: 1px solid #fefefe
+	}
+	.navbar-default .menu-wrap .navbar-nav>li:last-child{
+		border:none;
+	}
+	.main #slider,
+	.main .content1{
+		margin:0;
+	}
+	.main .cont-col{
+		margin-top: 20px;
+		overflow: hidden;
+	}
+	.main .testimo-wrap .testimo{
+		margin:10px 0;
+	}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px){
+	.navbar-default .menu-wrap .navbar-nav>li{
+		margin-right: 15px
+	}
+	.navbar-default .menu-wrap .navbar-nav>li>a{
+		padding:10px;
+	}
+
+}
